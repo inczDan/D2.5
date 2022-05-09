@@ -1,9 +1,70 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    background-color:blueviolet;
+}
+.background{
+    background-color:#2e2d4c;
+    background-image: url(../img/background-foods-v4.png);
+    background-attachment: fixed;
+}
+.conteudo{
+    width:72%;
+    margin: auto;
+    background-color:#eee3e3;
+    padding:50px;
+    border-radius:60px 10px 60px 10px;
+}
+.cabecalho{
+    text-align:center;
+    color:#ffff;
+    margin: auto;
+    padding:30px;
+}
+.img{
+    width: 150px;
+    height:150px;
+}
+.fonte--grande{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:40px;
+}
+.subtitle--color-fonte--media{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation li {
+    display:inline-block;
+    width: 150px;
+    text-transform:uppercase;
+}
+.navigation li a:active{
+    color:rgb(234, 117, 117);
+    text-decoration:underline;
+}
+.conteudo img{
+    float:left;
+    width:140px;
+    padding:20px;
+}
+.ajuste-lista:hover{
+    color:#2c0dda;
+}
+.ajuste-lista{
+    text-align:  center;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    color:#000000;
+    margin:4px 20px 10px;
+}
+.fonte--media{
 
 
-
-
-
-
+}
+.titulo{
+    font-size:1.9rem;
+    margin-top:50px;
+}
