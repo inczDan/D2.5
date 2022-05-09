@@ -10,6 +10,7 @@ body{
     background-attachment: fixed;
 }
 .conteudo{
+    line-height: 2.6rem;
     width:72%;
     margin: auto;
     background-color:#eee3e3;
@@ -43,10 +44,11 @@ body{
     color:rgb(234, 117, 117);
     text-decoration:underline;
 }
-.conteudo img{
+.avatar{
     float:left;
     width:140px;
     padding:20px;
+    margin-right: 20px;
 }
 .ajuste-lista:hover{
     color:#2c0dda;
@@ -61,10 +63,31 @@ body{
     margin:4px 20px 10px;
 }
 .fonte--media{
-
-
+     text-align: justify;
+    font-size: 1.5rem;
+    list-style:circle;
 }
 .titulo{
-    font-size:1.9rem;
+    font-size:1.8rem;
     margin-top:50px;
+    
+}
+#habilidades{
+    width:300px;
+}
+#progress-bar-1 {
+     accent-color: #2fb5c7;
+}
+#progress-bar-2 {
+    accent-color: #2fb5c7;
+}
+#progress-bar-3 {
+    accent-color: #2fb5c7;
+}
+#progress-bar-4 {
+    accent-color: #2fb5c7;
+}
+.fotos img{
+    width: 380px;
+    height: 240px;
 }
