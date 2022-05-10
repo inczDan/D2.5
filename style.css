@@ -9,7 +9,7 @@ body{
     background-image: url(../img/background-foods-v4.png);
     background-attachment: fixed;
 }
-.conteudo{
+.conteudo {
     line-height: 2.6rem;
     width:72%;
     margin: auto;
@@ -54,13 +54,12 @@ body{
     color:#2c0dda;
 }
 .ajuste-lista{
-    text-align:  center;
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.44rem;
     color:#000000;
-    margin:4px 20px 10px;
+    margin:4px 90px 14px;
 }
 .fonte--media{
      text-align: justify;
@@ -68,26 +67,52 @@ body{
     list-style:circle;
 }
 .titulo{
-    font-size:1.8rem;
+    font-size:2.3rem;
     margin-top:50px;
     
 }
+.texto-contato{
+    font-size: 1.3rem;
+}
 #habilidades{
+    font-size: 2.3rem;
     width:300px;
 }
+.texto-habilidades{
+    font-size: 25px;
+}
 #progress-bar-1 {
+    font-size: 23px;
      accent-color: #2fb5c7;
 }
 #progress-bar-2 {
+    font-size: 23px;
     accent-color: #2fb5c7;
 }
 #progress-bar-3 {
+    font-size: 23px;
     accent-color: #2fb5c7;
 }
 #progress-bar-4 {
+    font-size: 23px;
     accent-color: #2fb5c7;
 }
 .fotos img{
-    width: 380px;
+    width: 320px;
     height: 240px;
+}
+.btn-up {
+    height: 40px;
+    width: 60px;
+    font-size:3rem;
+    margin-left:1400px;
+    line-height: 60px;
+    background-color: #dac7c7;
+    position: fixed;
+    border-radius: 37%;
+    bottom:20px;
+    opacity: 0.5;
+}
+.btn-up:hover{
+    opacity: 1.0;
 }
