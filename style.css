@@ -1,18 +1,58 @@
 html {
+    padding: 0;
+    height: 100%;
     scroll-behavior: smooth;
 }
 body{
-    background-color:blueviolet;
+    background-color:#2e2d4c;
+    margin:0px 0px;
 }
 .background{
+    background-size:100%;
     background-color:#2e2d4c;
     background-image: url(../img/background-foods-v4.png);
     background-attachment: fixed;
 }
+/* .logomarca{
+    transform:translateX(50%) rotate(45deg);
+    display:inline-block;
+    background-color:#ffff;
+    width: 100px;
+    height: 100px;
+    margin-left:44%;
+    margin-top: -48px;
+}
+.logotipo{
+} */
+.rImagem{
+    top:0;
+    width:30px;
+    margin-left:50%;
+    position:absolute;
+    z-index:1;
+    transform:translateX(-50%);
+    margin-top:1.8%;
+}
+.trianguloTopo > :not(.rTriangulo){
+    background-color:#fff;
+    width:100px;
+    height:100px;
+    float:right;
+    margin-right:50%;
+    transform:translateX(50%) rotate(45deg);
+    margin-top: -200px;
+}
+.logo-tipo-img{
+    right:50%;
+    margin-top: 36px;
+    position:absolute;
+    width: 20px;
+    z-index: 1;
+}
 .conteudo {
     line-height: 2.6rem;
     width:72%;
-    margin: auto;
+    margin:auto;
     background-color:#eee3e3;
     padding:50px;
     border-radius:60px 10px 60px 10px;
@@ -20,7 +60,7 @@ body{
 .cabecalho{
     text-align:center;
     color:#ffff;
-    margin: auto;
+    margin:150px auto;
     padding:30px;
 }
 .img{
@@ -82,24 +122,28 @@ body{
     font-size: 25px;
 }
 #progress-bar-1 {
+    margin-left:60px;
     font-size: 23px;
-     accent-color: #2fb5c7;
+    accent-color: #2fb5c7;
 }
 #progress-bar-2 {
+    margin-left:30px;
     font-size: 23px;
     accent-color: #2fb5c7;
 }
 #progress-bar-3 {
+    margin-left:63px;
     font-size: 23px;
     accent-color: #2fb5c7;
 }
 #progress-bar-4 {
+    margin-left:20px;
     font-size: 23px;
     accent-color: #2fb5c7;
 }
 .fotos img{
-    width: 320px;
-    height: 240px;
+    width: 520px;
+    height: 340px;
 }
 .btn-up {
     height: 40px;
@@ -115,4 +159,23 @@ body{
 }
 .btn-up:hover{
     opacity: 1.0;
+}
+.footer{
+    text-align: center;
+    color:#eee3e3;
+    font-size: 30px;
+    margin-top:20px;
+    margin-bottom:40px;
+    height:100px;
+    display:inline-block;
+    margin-left:43%;
+    
+}
+.icon-inferior{
+    display:inline-block;
+}
+.icones-redes{
+    margin-top:10px;
+    width:50px;
+    height:50px;
 }
